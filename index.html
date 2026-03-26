@@ -1,11 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>
-            My Site!
-        </title>
-    </head>
-    <body>
-        <h1>This is my Github Pages website!</h1>
-    </body>
+<html>
+<head>
+<title>Schedule Table</title>
+
+<style>
+
+table{
+width:100%;
+border-collapse:collapse;
+font-family:Arial;
+}
+
+th, td{
+border:1px solid black;
+padding:8px;
+text-align:left;
+}
+
+/* Header */
+th{
+background:#d9d9d9;
+}
+
+/* Purple rows */
+.purple{
+background:#6f2da8;
+color:white;
+}
+
+/* Highlight yellow */
+.yellow{
+background:yellow;
+font-weight:bold;
+}
+
+/* Green row */
+.green{
+background:#c6e0b4;
+}
+
+/* Red row */
+.red{
+background:red;
+color:white;
+}
+
+/* Strike text */
+.strike{
+text-decoration:line-through;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<table>
+
+<tr>
+<th>Time</th>
+<th>Date</th>
+<th>Course</th>
+<th>Task 1</th>
+<th>Task 2</th>
+<th colspan="2">Deadlines</th>
+</tr>
+
+<!-- Row 1 -->
+<tr class="purple">
+<td>8:00:00 PM</td>
+<td>Friday, March 27, 2026</td>
+<td>ICP</td>
+<td><b>Assignment 1:</b> Write a detailed note on five male personalities who played a pivotal role in the creation of Pakistan.</td>
+<td>Quiz 1: a. Definitions of Ideology...</td>
+<td>Friday, March 27, 2026</td>
+<td>8:00:00 PM</td>
+</tr>
+
+<!-- Row 2 -->
+<tr class="purple">
+<td>11:59:00 PM</td>
+<td>Saturday, March 28, 2026</td>
+<td>Ai Lab</td>
+<td>Lab 2, 3 revise. Learn Python, Master Python</td>
+<td></td>
+<td>Wednesday, April 1, 2026</td>
+<td>11:59:00 PM</td>
+</tr>
+
+<!-- Row 3 -->
+<tr class="purple">
+<td>11:00:00 AM</td>
+<td>Sunday, March 29, 2026</td>
+<td>PDC Lab</td>
+<td>Lab 1, 2, 3 Prepare for quiz</td>
+<td></td>
+<td>Monday, March 30, 2026</td>
+<td>11:00:00 AM</td>
+</tr>
+
+<!-- Row 4 -->
+<tr class="purple">
+<td>7:59:00 AM</td>
+<td>Sunday, March 29, 2026</td>
+<td>WAD Lab</td>
+<td>Practice Task Lab 4</td>
+<td>Master HTML, CSS & Bootstrap</td>
+<td>Thursday, April 2, 2026</td>
+<td>7:59:00 AM</td>
+</tr>
+
+<!-- Row 5 -->
+<tr>
+<td>12:00:00 AM</td>
+<td>Monday, March 30, 2026</td>
+<td class="yellow">NC Lab</td>
+<td>Lab 4 Revise</td>
+<td></td>
+<td>Tuesday, March 31, 2026</td>
+<td>12:00:00 AM</td>
+</tr>
+
+<!-- Row 6 -->
+<tr>
+<td>12:00:00 AM</td>
+<td>Tuesday, March 31, 2026</td>
+<td>PDC</td>
+<td>Assignment 1 + Chapter 1 + Chapter 2 upto 13 slides Quiz</td>
+<td>Self Study chapter 2</td>
+<td>Tuesday, March 31, 2026</td>
+<td>12:00:00 AM</td>
+</tr>
+
+<!-- Row 7 -->
+<tr>
+<td>12:00:00 AM</td>
+<td>Tuesday, March 31, 2026</td>
+<td>T. & Biz Writing</td>
+<td class="strike">Expected Quiz 1</td>
+<td>Assignment 1</td>
+<td>Tuesday, March 31, 2026</td>
+<td>12:00:00 AM</td>
+</tr>
+
+<!-- Row 8 -->
+<tr>
+<td>3:42:00 PM</td>
+<td>Wednesday, April 1, 2026</td>
+<td>NC</td>
+<td>Assignment 1</td>
+<td></td>
+<td>Wednesday, April 1, 2026</td>
+<td>3:42:00 PM</td>
+</tr>
+
+<!-- Row 9 -->
+<tr>
+<td>12:00:00 AM</td>
+<td>Thursday, April 2, 2026</td>
+<td>Ai</td>
+<td>H.W from Ch 1 slides last</td>
+<td>Ch 1 Quiz</td>
+<td>Thursday, April 2, 2026</td>
+<td>12:00:00 AM</td>
+</tr>
+
+<!-- Row 10 -->
+<tr class="green">
+<td></td>
+<td></td>
+<td>WAD</td>
+<td class="strike">Activity 1 on Teams, HTML & CSS TASK: Student Business Card</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<!-- Red Footer Row -->
+<tr class="red">
+<td colspan="7"></td>
+</tr>
+
+</table>
+
+</body>
 </html>
